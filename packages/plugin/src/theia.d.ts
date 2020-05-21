@@ -3391,7 +3391,7 @@ declare module '@theia/plugin' {
         /**
          * Shows a file upload dialog to the user which allows to upload files
          * for various purposes.
-         * 
+         *
          * @param options Options, that control the dialog.
          * @returns A promise that resolves the paths of uploaded files or `undefined`.
          */
