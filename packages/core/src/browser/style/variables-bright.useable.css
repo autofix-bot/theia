@@ -87,7 +87,7 @@ is not optimized for dense, information rich UIs.
 
   /* Statusbar */
   --theia-statusBar-font-size: 12px;
- 
+
   /* Opacity for disabled mod  */
   --theia-mod-disabled-opacity: 0.4;
 }
