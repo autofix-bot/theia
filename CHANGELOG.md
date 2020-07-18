@@ -16,7 +16,7 @@ Breaking Changes:
 - [[user-storage]](#1_4_0_absolute_user_storage_uri) settings URI must be an absolute to satisfy expectations of `vscode.json-language-features` [#8112](https://github.com/eclipse-theia/theia/pull/8112)
   - If you imlpement a custom user storage make sure to check old relaitve locations, otherwise it can cause user data loss.
 <a name="1_4_0_deprecate_languages"></a>
-- [[languages]](#1_4_0_deprecate_languages) `@theia/languages` extension is deprecated, use VS Code extensions to provide language smartness: 
+- [[languages]](#1_4_0_deprecate_languages) `@theia/languages` extension is deprecated, use VS Code extensions to provide language smartness:
   https://code.visualstudio.com/api/language-extensions/language-server-extension-guide [#8112](https://github.com/eclipse-theia/theia/pull/8112)
 
 ## v1.3.0
