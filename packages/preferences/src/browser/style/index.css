@@ -295,7 +295,7 @@
     border: 1px solid var(--theia-dropdown-border);
 }
 
-.theia-settings-container .theia-input[type="checkbox"]:focus, 
+.theia-settings-container .theia-input[type="checkbox"]:focus,
 .theia-settings-container .theia-input[type="number"]:focus {
     outline-width: 2px;
 }
