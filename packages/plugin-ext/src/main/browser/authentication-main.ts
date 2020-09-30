@@ -272,7 +272,7 @@ export class AuthenticationProviderImpl implements AuthenticationProvider {
         const accountUsages = await readAccountUsages(this.storageService, this.id, accountName);
         const sessionsForAccount = this.accounts.get(accountName);
 
-        const result = await this.messageService.info(`The account ${accountName} has been used by: 
+        const result = await this.messageService.info(`The account ${accountName} has been used by:
         ${accountUsages.map(usage => usage.extensionName).join(', ')}. Sign out of these features?`, 'Yes');
 
         if (result && result === 'Yes' && sessionsForAccount) {
