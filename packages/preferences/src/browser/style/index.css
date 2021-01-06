@@ -194,7 +194,7 @@
     font-size: var(--theia-ui-font-size3);
     padding-left: calc(2 * var(--theia-ui-padding));
   }
-  
+
 .theia-settings-container .settings-section-subcategory-title {
     font-weight: bold;
     font-size: var(--theia-ui-font-size2);
@@ -299,7 +299,7 @@
     border: 1px solid var(--theia-dropdown-border);
 }
 
-.theia-settings-container .theia-input[type="checkbox"]:focus, 
+.theia-settings-container .theia-input[type="checkbox"]:focus,
 .theia-settings-container .theia-input[type="number"]:focus {
     outline-width: 2px;
 }
