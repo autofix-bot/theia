@@ -5325,10 +5325,10 @@ declare module '@theia/plugin' {
 
         /**
          * Find text in files across all [workspace folders] in the workspace
-         * @param query What to search 
-         * @param optionsOrCallback 
-         * @param callbackOrToken 
-         * @param token 
+         * @param query What to search
+         * @param optionsOrCallback
+         * @param callbackOrToken
+         * @param token
          */
         export function findTextInFiles(query: TextSearchQuery, optionsOrCallback: FindTextInFilesOptions | ((result: TextSearchResult) => void),
             callbackOrToken?: CancellationToken | ((result: TextSearchResult) => void), token?: CancellationToken): Promise<TextSearchComplete>
