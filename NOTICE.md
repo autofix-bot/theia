@@ -345,7 +345,7 @@ VS Code (1.33.0)
 
 VS Code built-in extensions (1.30.1)
 
-* License: Apache-2.0 AND MIT AND Unicode-DFS-2016 AND CC-BY-4.0 AND W3C 
+* License: Apache-2.0 AND MIT AND Unicode-DFS-2016 AND CC-BY-4.0 AND W3C
 
 vscode (1.26.0)
 

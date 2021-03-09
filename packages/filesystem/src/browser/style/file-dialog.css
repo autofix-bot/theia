@@ -64,7 +64,7 @@
 /*
  * Navigation panel items
  */
- 
+
 .dialogContent .theia-NavigationPanel span
  {
     position: absolute;
@@ -75,12 +75,12 @@
     text-align: center;
 }
 
-.dialogContent .theia-NavigationPanel span:not(.theia-mod-disabled) i.active 
+.dialogContent .theia-NavigationPanel span:not(.theia-mod-disabled) i.active
 {
     transform: scale(var(--theia-toolbar-active-transform-scale));
 }
 
-.dialogContent .theia-NavigationPanel span:focus 
+.dialogContent .theia-NavigationPanel span:focus
 {
     outline: none;
     box-shadow: none;

@@ -5506,7 +5506,7 @@ declare module '@theia/plugin' {
          *
          * **Note:** it is not advised to use `workspace.workspaceFile` to write
          * configuration data into the file.
-         * 
+         *
          * @readonly
          */
         export const workspaceFile: Uri | undefined;
@@ -5760,10 +5760,10 @@ declare module '@theia/plugin' {
 
         /**
          * Find text in files across all [workspace folders] in the workspace
-         * @param query What to search 
-         * @param optionsOrCallback 
-         * @param callbackOrToken 
-         * @param token 
+         * @param query What to search
+         * @param optionsOrCallback
+         * @param callbackOrToken
+         * @param token
          */
         export function findTextInFiles(query: TextSearchQuery, optionsOrCallback: FindTextInFilesOptions | ((result: TextSearchResult) => void),
             callbackOrToken?: CancellationToken | ((result: TextSearchResult) => void), token?: CancellationToken): Promise<TextSearchComplete>
